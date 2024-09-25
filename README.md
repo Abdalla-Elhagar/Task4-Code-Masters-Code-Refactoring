@@ -4,7 +4,7 @@
 
 ## Features:
 <ul>
-  <li><h4>Responsive design using Bootstrap grid and components.</h4></li>
+  <li><h3>Responsive design using Bootstrap grid and components.</h3></li>
   <li>"Back to Top" button for better navigation.</li>
   <li>Improved HTML structure and accessibility.</li>
   <li>Optimized for performance and SEO.</li>
