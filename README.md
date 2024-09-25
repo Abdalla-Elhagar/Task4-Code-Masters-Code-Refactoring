@@ -5,9 +5,9 @@
 ## Features:
 <ul>
   <li><h3>Responsive design using Bootstrap grid and components.</h3></li>
-  <li>"Back to Top" button for better navigation.</li>
-  <li>Improved HTML structure and accessibility.</li>
-  <li>Optimized for performance and SEO.</li>
+  <li><h3>"Back to Top" button for better navigation.</h3></li>
+  <li><h3>Improved HTML structure and accessibility.</h3></li>
+  <li><h3>Optimized for performance and SEO.</h3></li>
 </ul>
 
 ## Installation:
