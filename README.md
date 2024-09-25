@@ -4,10 +4,10 @@
 
 ## Features:
 <ul>
-###  <li>Responsive design using Bootstrap grid and components.</li>
-###  <li>"Back to Top" button for better navigation.</li>
-###  <li>Improved HTML structure and accessibility.</li>
-###  <li>Optimized for performance and SEO.</li>
+  <li><h2>Responsive design using Bootstrap grid and components.</h2>h2></li>
+  <li>"Back to Top" button for better navigation.</li>
+  <li>Improved HTML structure and accessibility.</li>
+  <li>Optimized for performance and SEO.</li>
 </ul>
 
 ## Installation:
