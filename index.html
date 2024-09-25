@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Advanced Blog</title>
+    <!-- css file -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- boot strap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  </head>
+  <body>
+    <!-- chainged the div tag to header and use bootstrap to make the same header  -->
+    <header id="top" class="navbar navbar-expand-lg navbar-light">
+      <!-- in medium and small screens i chainged the flex direction from column to row using bootstrap -->
+      <div class="container-fluid flex-row flex-lg-column justify-content-between">
+        <a class="navbar-brand text-dark fw-bold" href="#">My Advanced Blog</a>
+        <!-- in in medium and small this button will be visible and the navbar links will be hiding and if the button clicked the navbar links will be visible  -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon  "></span>
+        </button>
+        <!-- chainged the div tag to header and use bootstrap to make the same nav -->
+        <nav class="collapse navbar-collapse d-lg-flex justify-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav d-flex justify-content-end me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Portfolio</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- chainged the div tag to header and use bootstrap to make the same main -->
+
+    <main class="container mt-5">
+      <div class="row">
+        <div class="col-md-8">
+          <!-- chainged the div tag to header and use bootstrap to add cards and make the same article -->
+
+          <article class="card post">
+            <div class="card-body">
+              <h2>First Advanced Article Title</h2>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <button class="btn btn-primary">Read More</button>
+            </div>
+          </article>
+          <!-- chainged the div tag to header and use bootstrap to add cards and make the same article -->
+
+          <article class="card post">
+            <div class="card-body">
+              <h2>Second Advanced Article Title</h2>
+              <p class="card-text">This is some sample text for the second article. The full content
+                of the article could be displayed here. Experiment with different
+                layouts and design enhancements.</p>
+              <button class="btn btn-primary">Read More</button>
+            </div>
+          </article>
+          <!-- chainged the div tag to header and use bootstrap to add cards and make the same article -->
+          
+          <article class="card post">
+            <div class="card-body">
+              <h2>Third Advanced Article Title</h2>
+              <p class="card-text">This is some sample text for the third article. Challenge yourself
+                to add more features and make the blog more interactive and
+                user-friendly.</p>
+              <button class="btn btn-primary">Read More</button>
+            </div>
+          </article>
+          
+        </div>
+        <!-- chainged the div tag to header and use bootstrap to make the same aside -->
+        <aside class="col-md-4">
+          <div class="sidebar">
+            <h3>About the Blog</h3>
+            <p>
+              This blog is more advanced, requiring enhancements and
+              restructuring. Consider adding more sections and making it dynamic
+              with JavaScript.
+            </p>
+            <h3>Useful Links</h3>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About the Author</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Portfolio</a></li>
+            </ul>
+          </div>
+          <div class="sidebar">
+            <h3>Recent Posts</h3>
+            <ul>
+              <li><a href="#">How to Improve Your Blog</a></li>
+              <li><a href="#">Understanding CSS Grid</a></li>
+              <li><a href="#">10 JavaScript Tips and Tricks</a></li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+    </main>
+    <!-- chainged the div tag to header and use bootstrap to make the same footer -->
+    <footer>
+      <div class="container m-auto row d-flex flex-lg-row gap-3 flex-column justify-content-between align-items-center">
+        <div class="input col-lg-6 col-12">
+          <input type="text" placeholder="Your message">
+        </div>
+        <p class="col-lg-5 col-12">All Rights Reserved © 2024 | Designed by Abdalla Elhagar</p>
+      </div>
+      
+    </footer>
+    <div id="goTop" class="top position-fixed rounded-full bg-white rounded-circle border border-2 border-dark">
+      <a class="text-decoration-none  text-dark" href="#top"><i class="fa-solid fa-arrow-up-long"></i></a>
+    </div>
+
+    
+    <script src="js/main.js"></script>
+    <!-- bootstrap java script file -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- font awsome src -->
+    <script src="https://kit.fontawesome.com/0b4d2557ff.js" crossorigin="anonymous"></script>    
+
+  </body>
+</html>

@@ -1,0 +1,188 @@
+/* CSS Variables for better maintainability */
+:root {
+  --primary-color: #FFBA19;
+  --secondary-color: #966900;
+  --light-color: #f4f4f9;
+  --footer-color: #343a40;
+  --header-text: #000000;
+  --main-text:  #111111 ;
+}
+
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--light-color);
+}
+
+/* Header styles */
+header {
+  background-color: var(--primary-color);
+  color: var(--header-text) !important;
+  padding: 40px 0;
+  text-align: center;
+  position: relative;
+}
+header::after {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 5px;
+  background-color: white !important;
+}
+/* Navigation links */
+nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+nav a {
+  color: var(--header-text) !important;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s !important;
+}
+
+nav a:hover {
+  transform: scale(1.1);
+}
+
+/* Post styles */
+article {
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+article:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+article h2 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+article p {
+  color: #666;
+  line-height: 1.6;
+}
+
+article .btn-primary {
+  background-color: var(--primary-color);
+  border: none;
+  color: var(--header-text) !important;
+  transition: 0.3s;
+}
+
+article .btn-primary:hover {
+  background-color: #ff9500;
+  color: white !important;
+  transform: scale(1.1);
+}
+
+/* Sidebar styles */
+.sidebar {
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.sidebar h3 {
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+  color: var(--secondary-color);
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.sidebar ul li a:hover {
+  margin-left: 5px;
+}
+
+/* Footer styles */
+footer {
+  background-color: var(--footer-color);
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+footer p {
+  margin: 0;
+  width: fit-content;
+}
+
+footer input {
+  width: 100%;
+  height: 48px;
+  border: 1px solid rgba(179, 189, 199, 1);
+  border-radius: 9999px;
+  padding-left: 20px;
+  background-color: rgba(255, 255, 255, 0.09);
+  color:var(--light-color)
+
+}
+footer .input {
+  position: relative;
+  height: 48px;
+}
+footer .input::after {
+  content: "Send";
+  padding: 13px 34px;
+  background-color: rgba(255, 187, 28, 1);
+  position: absolute;
+  top: -1px;
+  right: 0;
+  border-radius: 9999px;
+  cursor: pointer;
+  z-index: 99;
+}
+
+footer input::placeholder {
+  color: rgba(146, 152, 159, 1);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* Back to top button */
+.top {
+  right:15px;
+  bottom: 15px;
+  padding: 6px 0;
+  display: none;
+}
+.top a {
+  padding: 6px 13px;
+}
+.top:hover a {
+  color: var(--primary-color) !important;
+}
+.top:hover {
+  border-color: var(--primary-color) !important;
+  background-color: #000000 !important;
+}
+
+
