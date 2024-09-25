@@ -11,4 +11,4 @@
 </ul>
 
 ## Installation:
-### Simply open the index.htal file in a browser to view the blog. You can also modily the content by updating the HTML and CSS.
+### Simply open the index.htal file in a browser to view the blog. You can also open this link :  https://abdalla-elhagar.github.io/Task4-Code-Masters-Code-Refactoring/
